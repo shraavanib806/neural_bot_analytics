@@ -1,48 +1,63 @@
-# neural_bot Setup Guide
+# 🧠 Neural Bot Analytics
 
-Follow these steps to set up and run the Neural Bot project.
+A real-time stock analytics dashboard that performs **fundamental analysis**, **technical indicator modeling**, and **analyst sentiment breakdowns** — built with **Streamlit**, **yfinance**, and **TA-Lib**.
 
-## Prerequisites
+---
 
-- Python installed on your machine.
-- A terminal or command prompt for running commands.
+## 📊 Project Overview
 
-## Project Setup
+This tool allows users to enter any combination of stock tickers (e.g., AAPL, MSFT, GOOGL) and receive:
 
-### 1. Change to Project Directory
+- 📈 **Fundamental metrics** (market cap, revenue, debt ratios, etc.)
+- 📉 **Technical indicators** like RSI, MACD, EMA, momentum
+- 🤖 **Technical ratings** engine to identify Buy/Sell signals
+- 📊 **Analyst price targets and sentiment**
+- 💹 **Visual summaries** of market gainers, losers, undervalued large caps
 
-```sh
-cd bactester_ui
-```
-### 2. Create Python Virtual Environment
-```sh
-python -m venv venv
-```
+---
 
-### 3. Activate Virtual Environment
-#### For Windows:
-```sh
-venv\Scripts\activate
-```
+## 🖼️ Screenshots
 
-#### For Linux:
-```sh
+### Dashboard Overview
+![Overview](./screenshots/overview.png)
+
+### Earnings Table
+![Earnings](./screenshots/earnings.png)
+
+### Analyst Recommendations
+![Analyst Recommendations](./screenshots/analyst_recommendations.png)
+
+### Market Movers
+![Market Movers](./screenshots/market_movers.png)
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3.12
+- Streamlit
+- yfinance
+- pandas
+- TA-Lib
+- curl_cffi
+- lxml-html-clean
+
+---
+
+## ⚙️ How to Run It Locally
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/shraavanib806/neural_bot_analytics.git
+cd neural_bot_analytics
+
+# 2. Create & activate a virtual environment
+python3 -m venv venv
 source venv/bin/activate
-```
 
-### 4. Install Required Libraries
-```sh
+# 3. Install required libraries
 pip install -r requirements.txt
-```
+pip install TA-Lib curl_cffi lxml-html-clean
 
-### 5. Install TA-Lib wheel 
-#### first download talib wheel which is for your python version from this site : https://github.com/cgohlke/talib-build/releases
-```sh
-pip install talib_wheel_filepath
-```
-#### replace talib_wheel_filepath with actual filepath of downloaded talib wheel on you device.
-
-### 7. Run the Server
-```sh
+# 4. Run the app
 streamlit run neural_bot_beta.py
-```
