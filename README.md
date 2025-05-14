@@ -19,16 +19,16 @@ This tool allows users to enter any combination of stock tickers (e.g., AAPL, MS
 ## 🖼️ Screenshots
 
 ### Dashboard Overview
-![Overview](./screenshots/overview.png)
+![Overview](screenshots/overviews.jpg)
 
 ### Earnings Table
-![Earnings](./screenshots/earnings.png)
+![Earnings](screenshots/earnings.jpg)
 
 ### Analyst Recommendations
-![Analyst Recommendations](./screenshots/analyst_recommendations.png)
+![Analyst Ratings](screenshots/analyst_recs.jpg)
 
 ### Market Movers
-![Market Movers](./screenshots/market_movers.png)
+![Market Movers](./screenshots/market_movers.jpg)
 
 ---
 
