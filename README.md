@@ -16,6 +16,24 @@ This tool allows users to enter any combination of stock tickers (e.g., AAPL, MS
 
 ---
 
+🚀 Features
+- Enter any stock tickers (e.g., AAPL, MSFT, GOOGL) for real-time breakdowns
+- Perform technical analysis using RSI, MACD, EMA, Momentum indicators
+- View analyst sentiment from Wall Street
+- Detect bullish vs bearish trends using statistical signals
+- Fully interactive Streamlit dashboard
+
+---
+
+💼 Use Case
+This tool can help investors and analysts:
+- Evaluate stocks with both technical and fundamental signals
+- Visualize stock strength across multiple timeframes
+- Gain confidence in investment decisions through AI-enhanced ratings
+
+---
+  
+
 ## 🖼️ Screenshots
 
 ### Dashboard Overview
