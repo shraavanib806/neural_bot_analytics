@@ -9,16 +9,22 @@ A real-time stock analytics dashboard that performs **fundamental analysis**, **
 This tool allows users to enter any combination of stock tickers (e.g., AAPL, MSFT, GOOGL) and receive:
 
 - 📈 **Fundamental metrics** (market cap, revenue, debt ratios, etc.)
-- 📉 **Technical indicators** like RSI, MACD, EMA, momentum
+- 📉 **Technical indicators** 26 Technical Indicators (RSI, MACD, EMA, momentum, etc)
 - 🤖 **Technical ratings** engine to identify Buy/Sell signals
 - 📊 **Analyst price targets and sentiment**
 - 💹 **Visual summaries** of market gainers, losers, undervalued large caps
 
 ---
+📊 Technical Indicators Used (26 Total)
+Momentum:	RSI, MACD, Momentum, CCI, Stochastic %K, Stochastic RSI, Williams %R, Ultimate Oscillator
+Trend Strength:	ADX, Bull/Bear Power, Ichimoku Base Line
+Moving Averages:	SMA_10, SMA_20, SMA_30, SMA_50, SMA_100, SMA_200, EMA_10, EMA_20, EMA_30, EMA_50, EMA_100, EMA_200, Hull MA (9), VWMA_20
+Composite Signal:	Final Rating = based on buy/neutral/sell count across all above
+---
 
 🚀 Features
 - Enter any stock tickers (e.g., AAPL, MSFT, GOOGL) for real-time breakdowns
-- Perform technical analysis using RSI, MACD, EMA, Momentum indicators
+- Perform technical analysis using RSI, MACD, EMA, Momentum indicators, 
 - View analyst sentiment from Wall Street
 - Detect bullish vs bearish trends using statistical signals
 - Fully interactive Streamlit dashboard
