@@ -15,12 +15,6 @@ This tool allows users to enter any combination of stock tickers (e.g., AAPL, MS
 - 💹 **Visual summaries** of market gainers, losers, undervalued large caps
 
 ---
-📊 Technical Indicators Used (26 Total)
-Momentum:	RSI, MACD, Momentum, CCI, Stochastic %K, Stochastic RSI, Williams %R, Ultimate Oscillator
-Trend Strength:	ADX, Bull/Bear Power, Ichimoku Base Line
-Moving Averages:	SMA_10, SMA_20, SMA_30, SMA_50, SMA_100, SMA_200, EMA_10, EMA_20, EMA_30, EMA_50, EMA_100, EMA_200, Hull MA (9), VWMA_20
-Composite Signal:	Final Rating = based on buy/neutral/sell count across all above
----
 
 🚀 Features
 - Enter any stock tickers (e.g., AAPL, MSFT, GOOGL) for real-time breakdowns
